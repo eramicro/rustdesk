@@ -102,8 +102,8 @@ const CHARS: &[char] = &[
     'm', 'n', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z',
 ];
 
-pub const RENDEZVOUS_SERVERS: &[&str] = &["47.100.172.121"];
-pub const RS_PUB_KEY: &str = "wT8dBueYzaa3opNoMX996kyDFLtRiAaQ+E4hkeWmr0s=";
+pub const RENDEZVOUS_SERVERS: &[&str] = &["r.eramicro.com:11116"];
+pub const RS_PUB_KEY: &str = "key.icucloud.vip";
 
 pub const RENDEZVOUS_PORT: i32 = 21116;
 pub const RELAY_PORT: i32 = 21117;
