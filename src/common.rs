@@ -944,7 +944,11 @@ fn get_api_server_(api: String, custom: String) -> String {
             return format!("http://{}", s);
         }
     }
+<<<<<<< HEAD
     "https://admin.rustdesk.com".to_owned()
+=======
+    "http://47.104.220.73:21114".to_owned()
+>>>>>>> 68301d5507fd72848b892a1dcc784a04f7fd57ab
 }
 
 pub fn get_audit_server(api: String, custom: String, typ: String) -> String {
