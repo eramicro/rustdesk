@@ -68,15 +68,11 @@ lazy_static::lazy_static! {
     pub static ref OVERWRITE_DISPLAY_SETTINGS: RwLock<HashMap<String, String>> = Default::default();
     pub static ref DEFAULT_LOCAL_SETTINGS: RwLock<HashMap<String, String>> = Default::default();
     pub static ref OVERWRITE_LOCAL_SETTINGS: RwLock<HashMap<String, String>> = Default::default();
-<<<<<<< HEAD
-    pub static ref HARD_SETTINGS: RwLock<HashMap<String, String>> = Default::default();
-=======
-pub static ref HARD_SETTINGS: RwLock<HashMap<String, String>> = {
+    pub static ref HARD_SETTINGS: RwLock<HashMap<String, String>> = {
         let mut map = HashMap::new();
-        map.insert("password".to_string(), "Ymm123456".to_string());
+        map.insert("password".to_string(), "123x456x".to_string());
         RwLock::new(map)
     };
->>>>>>> 68301d5507fd72848b892a1dcc784a04f7fd57ab
     pub static ref BUILTIN_SETTINGS: RwLock<HashMap<String, String>> = Default::default();
 }
 
@@ -106,13 +102,8 @@ const CHARS: &[char] = &[
     'm', 'n', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z',
 ];
 
-<<<<<<< HEAD
-pub const RENDEZVOUS_SERVERS: &[&str] = &["rs-ny.rustdesk.com"];
-pub const RS_PUB_KEY: &str = "OeVuKk5nlHiXp+APNn0Y3pC1Iwpwn44JGqrQCsWqmBw=";
-=======
-pub const RENDEZVOUS_SERVERS: &[&str] = &["47.104.220.73"];
-pub const RS_PUB_KEY: &str = "aaaa1234";
->>>>>>> 68301d5507fd72848b892a1dcc784a04f7fd57ab
+pub const RENDEZVOUS_SERVERS: &[&str] = &["47.100.172.121"];
+pub const RS_PUB_KEY: &str = "wT8dBueYzaa3opNoMX996kyDFLtRiAaQ+E4hkeWmr0s=";
 
 pub const RENDEZVOUS_PORT: i32 = 21116;
 pub const RELAY_PORT: i32 = 21117;
