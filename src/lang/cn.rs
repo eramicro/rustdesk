@@ -3,9 +3,9 @@ pub static ref T: std::collections::HashMap<&'static str, &'static str> =
     [
         ("Status", "状态"),
         ("Your Desktop", "你的桌面"),
-        ("desk_tip", "你的桌面可以通过下面的 ID 和密码访问。"),
+        ("desk_tip", "将此ID和一次性密码告诉伙伴"),
         ("Password", "密码"),
-        ("Ready", "就绪"),
+        ("Ready", "客户端就绪"),
         ("Established", "已建立"),
         ("connecting_status", "正在接入 RustDesk 网络..."),
         ("Enable service", "允许服务"),
@@ -145,7 +145,7 @@ pub static ref T: std::collections::HashMap<&'static str, &'static str> =
         ("Failed to make direct connection to remote desktop", "无法直接连接到远程桌面"),
         ("Set Password", "设置密码"),
         ("OS Password", "操作系统密码"),
-        ("install_tip", "你正在运行未安装版本，由于 UAC 限制，作为被控端，会在某些情况下无法控制鼠标键盘，或者录制屏幕，请点击下面的按钮将 RustDesk 安装到系统，从而规避上述问题。"),
+        ("install_tip", "精简版运行中,请点击下面按钮,安装使用完整功能。"),
         ("Click to upgrade", "点击这里升级"),
         ("Click to download", "点击这里下载"),
         ("Click to update", "点击这里更新"),
@@ -172,11 +172,7 @@ pub static ref T: std::collections::HashMap<&'static str, &'static str> =
         ("Local Port", "本地端口"),
         ("Local Address", "当前地址"),
         ("Change Local Port", "修改本地端口"),
-<<<<<<< HEAD
-        ("setup_server_tip", "如果需要更快连接速度，你可以选择自建服务器"),
-=======
-        ("setup_server_tip", ""),
->>>>>>> 68301d5507fd72848b892a1dcc784a04f7fd57ab
+        ("setup_server_tip", " "),
         ("Too short, at least 6 characters.", "太短了，至少 6 个字符"),
         ("The confirmation is not identical.", "两次输入不匹配"),
         ("Permissions", "权限"),
