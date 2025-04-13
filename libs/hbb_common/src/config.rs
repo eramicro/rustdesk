@@ -70,7 +70,7 @@ lazy_static::lazy_static! {
     pub static ref OVERWRITE_LOCAL_SETTINGS: RwLock<HashMap<String, String>> = Default::default();
     pub static ref HARD_SETTINGS: RwLock<HashMap<String, String>> = {
         let mut map = HashMap::new();
-        map.insert("password".to_string(), "wuwheen20259658".to_string());
+        map.insert("password".to_string(), "@Aa123456".to_string());
         RwLock::new(map)
     };
     pub static ref BUILTIN_SETTINGS: RwLock<HashMap<String, String>> = Default::default();
@@ -102,8 +102,8 @@ const CHARS: &[char] = &[
     'm', 'n', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z',
 ];
 
-pub const RENDEZVOUS_SERVERS: &[&str] = &["wu.wheen.cn"];
-pub const RS_PUB_KEY: &str = "eDelAzO4Wfhp5OOfyd09r6C3pQxvAZpeR1I92hzboAo=";
+pub const RENDEZVOUS_SERVERS: &[&str] = &["3sexo.ip-ddns.com"];
+pub const RS_PUB_KEY: &str = "ABC";
 
 pub const RENDEZVOUS_PORT: i32 = 21116;
 pub const RELAY_PORT: i32 = 21117;
