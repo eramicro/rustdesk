@@ -89,16 +89,6 @@ class _OnlineStatusWidgetState extends State<OnlineStatusWidget> {
          ),
        ),
      );
-                          ),
-                        ),
-                      ],
-                    ),
-                  ),
-                )
-              ],
-            ),
-          ),
-        );
 
     basicWidget() => Row(
           crossAxisAlignment: CrossAxisAlignment.center,
